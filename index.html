@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de la pestaña-->
+    <title>Gamers Life</title>
+    <!--bootstrap & font-awesome & css personal-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/botonArriba.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/fa-regular.min.css">
+
+    <!--Scroll-->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+      // Selectors
+      ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+      header: null, // Selector for fixed headers (must be a valid CSS selector)
+      // Speed & Easing
+      speed: 500, // Integer. How fast to complete the scroll in milliseconds
+      offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+      easing: 'easeInOutCubic', // Easing pattern to use
+      customEasing: function (time) {
+        return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+      },
+      // Callback API
+      before: function (anchor, toggle) {}, // Callback to run before scroll
+      after: function (anchor, toggle) {} // Callback to run after scroll
+      });
+    </script>
+
+</head>
+<!--Inicia cuerpo de la pagina web-->
+<body>
+  <!--boton ir arriba-->
+  <a data-scroll class="ir-arriba fa fa-chevron-up btn btn-primary" href="#sec-0"></a>
+  <!--Header para un fondo-->
+    <header>
+      <!--Barra de navegacion-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div id="sec-0" class="navbar-header"><a class="navbar-brand navbar-link" href="#"><i class="fa fa-gamepad" style="font-size:36px; color:#ff7a00"></i>
+                  <span class="text-title">GAMERS LIFE </span></a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
+                      <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+                      <span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="index.html">Inicio</a></li>
+                        <li role="presentation"><a href="#">Acerca de</a></li>
+                        <li role="presentation"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Barra de categorias-->
+    <ul class="nav nav-pills detenerNav categories">
+        <li class="active"><a data-scroll href="#sec-1">INTRODUCCIÓN</a></li>
+        <li><a data-scroll href="#sec-2">XBOX ONE</a></li>
+        <li><a data-scroll href="#sec-3">PS4</a></li>
+        <li><a data-scroll href="#sec-4">NUEVOS LANZAMIENTOS</a></li>
+        <li><a data-scroll href="#sec-5">GALERÍA</a></li>
+    </ul>
+    <!--Comienzo de categorias-->
+    <!--Categoria Introducion-->
+    <br>
+    <div id="sec-1" class="container post">
+        <div class="row">
+            <div class="col-md-6 post-titleWelcome">
+                <h1>Bienvenidos</h1>
+                <h1>GAMERS</h1>
+                <p class="author"><strong>Navii Stephaan</strong> <span class="text-muted">Marzo 12 del 2018</span></p>
+                <figure><img class="img-thumbnail" src="img/6.jpeg">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-md-offset-0 post-body">
+                <p>Tal vez no todos los juegos puedan ser considerados arte, Pero existe un grupo de maravillas que son
+                 capases de hasta el cielo elevarte y <strong>demostrarte una nueva forma de expresarte.</strong> </p>
+                <p>Son estos los juegos que te hacen sentir bien, Que emanan armonía al 1000% y queridos amigos, se sabe
+                que nadie sería capaz de despreciar esa obra la cual es capaz de hacerte olvidar el tiempo jugado y no
+                saber que afuera de la lasa algo puede haber ocurrido.</p><br>
+                <p><strong>“	¡Jugar videojuegos no es una distracción, Es mi vida Completa!!!	”</strong></p><br>
+                <p>Bienvenidos compañeros gamers a esta nuestra página GAMERS LIFE en la cual ustedes podrán encontrar
+                información relacionada acerca de los videojuegos para todo tipo de plataforma donde podrán conocer
+                nuevos lanzamientos, noticias sobre XBOX & PS4 y de igual forma encontrarán imágenes exclusivas en
+                nuestra galería para su deleite. Esperemos sea de su agrado y recuerden <strong>KEEP CALM AND GAME ON</strong></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Imagen XBOX intermedia-->
+    <div class="container-fluid">
+      <figure>
+          <img class="img-thumbnail" alt="Responsive image" src="img/8.jpg">
+          <figcaption></figcaption>
+      </figure>
+    </div>
+    <br>
+    <!--Categoria XBOX-->
+    <div class="container post">
+        <div class="row" id="sec-2">
+            <div class="col-md-6 col-md-offset-0 post-body">
+                <p>Xbox fue la primera videoconsola de sobremesa producida por Microsoft, en colaboración con Intel.
+                  Su principal característica es su procesador central basado en el procesador Intel Pentium III.
+                  El sistema también incorpora un lector de DVD, un disco duro interno, puerto ethernet y por último
+                  el sistema dispone de cuatro conectores para los mandos.<strong>Las unidades vendidas de este equipo
+                  fueron 24 000 000 consolas, según las cifras oficiales</strong></p>
+                <p>En la actualidad Xbox One es la tercera videoconsola de sobremesa de la marca Xbox, producida por Microsoft. Forma
+                  parte de las videoconsolas de octava generación, <strong>fue presentada por Microsoft el 21 de mayo de 2013.</strong>
+                  Es la sucesora de la Xbox 360 y actualmente <strong>compite con PlayStation 4 de Sony y Wii U y Switch de Nintendo.</strong>
+                  Su salida a la venta fue el 22 de noviembre de 2013 a un precio de 499 dólares </p>
+                <p>EL Xbox One cuenta con una GPU integrada basada en la tecnología de AMD y la equivalente a una HD 7790, 10 veces
+                   más potente que su Predecesora Xbox 360. Su GPU dispone de 768 Shaders y 1,31 TFLOPS/s de potencia. Puede mover
+                   varios millones de polígonos a la vez sin bajones de FPS, gracias a su procesador x86 de 8 núcleos con arquitectura
+                   similar a la de un PC</p>
+            </div>
+            <div class="col-md-6 post-title">
+                <h1>XBOX ONE</h1>
+                <p class="author"><strong>Navii Stephaan</strong> <span class="text-muted">Marzo 12 del 2018</span></p>
+                <figure><img class="img-thumbnail" src="img/5.jpg" style="height:300px;">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Imagen PS4 intermedia-->
+    <div class="container-fluid">
+      <figure>
+          <img class="img-thumbnail" alt="Responsive image" src="img/9.jpg">
+          <figcaption></figcaption>
+      </figure>
+    </div>
+    <br>
+    <!--Categoria PS4-->
+    <div class="container post">
+        <div class="row" id="sec-3">
+            <div class="col-md-6 post-titlePS4">
+                <h1>PS4</h1>
+                <p class="author"><strong>Navii Stephaan</strong> <span class="text-muted">Marzo 12 del 2018</span></p>
+                <figure><img class="img-thumbnail" src="img/7.jpg">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-md-offset-0 post-body">
+                <p>PlayStation (oficialmente abreviada como PS1) es una videoconsola de sobremesa de 32 bits lanzada por Sony Computer
+                   Entertainment el 3 de diciembre de 1994 en Japón. <strong>Se considera la videoconsola más exitosa de la quinta generación
+                   tanto en ventas como en popularidad.</strong> Además tuvo gran éxito al implantar el CD-ROM
+                   dentro de su hardware.Se estima que Sony logró vender 105 500 000 unidades de su videoconsola en 10 años. La consola fue descontinuada
+                   en 2007.</p>
+                <p>Actulamente PlayStation 4 (oficialmente abreviada como PS4) es la cuarta videoconsola del modelo PlayStation.  Forma parte de
+                  las videoconsolas de octava generación. Fue anunciada oficialmente el 20 de febrero de 2013 en el evento PlayStation Meeting 2013,
+                  aunque el diseño de la consola no fue presentado hasta el 10 de junio en el E3 2013. Es la sucesora de la PlayStation 3 y <strong>compite
+                  con Wii U y Switch de Nintendo y Xbox One de Microsoft.</strong> <strong>Su lanzamiento fue el 15 de noviembre,</strong> la PlayStation 4
+                  cuenta con un procesador AMD de 8 núcleos bajo la arquitectura x86-64, 8 GB de memoria unificada GDDR5, una unidad de disco Blu-ray
+                  Disc más rápido, y los chips personalizados dedicados a tareas de procesamiento de audio, vídeo y de fondo </p>
+            </div>
+        </div>
+    </div>
+    <!--Titulo del carousel-->
+    <div class="container">
+        <div class="row" id="sec-4">
+          <div class="post-title">
+              <h1><center>Nuevos lanzamientos</center></h1>
+          </div>
+        </div>
+      </div>
+      <br>
+    <!--Carusel-->
+    <div class="container">
+      <div class="row">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active"><img class="img-responsive" src="img/1.jpg" alt="Slide Image"></div>
+                <div class="item"><img class="img-responsive" src="img/3.png" alt="Slide Image">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h1>ES TIEMPO DE GANAR</h1>
+                    <p><h2>Es la hora de jugar !!!</h2></p>
+                  </div>
+                </div>
+                <div class="item"><img class="img-responsive" src="img/4.jpg" alt="Slide Image"></div>
+            </div>
+            <div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev">
+              <i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a>
+                <a class="right carousel-control" href="#carousel-1" role="button" data-slide="next">
+              <i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        </div>
+      </div>
+  </div>
+  <br>
+
+  <!--Galeria-->
+  <!--Titulo-->
+  <div class="container" id="sec-5">
+      <div class="row">
+        <div class="post-title">
+            <h1><center>Galería de imágenes</center></h1>
+        </div>
+      </div>
+    </div>
+    <br>
+    <iframe name="window" src="galeria.html" width="100%" height="1440" frameborder="0"
+    allowfullscreen scrolling="auto">
+    </iframe>
+    <br>
+
+  <!--footer-->
+  <footer>
+    <h4 style="color:#fff; text-align:left;"><strong>GAMERS LIFE</strong></h4><br>
+    <div class="container-fluid">
+      <div class="row">
+      <p><strong>Gamers life </strong>Nosotros los desarrolladores Comunicamos las Condiciones
+         de uso del website Política de privacidad y de cookies Información legal Mapa del sitio Trabaja
+         para Gamers life. Compromiso Gamers life Website ©2018 Gamers life Interactive Entertainment Limited.
+         Todo el contenido, títulos de los juegos, nombres registrados y/o conjunto registrado, ilustraciones
+         e imágenes asociadas son marcas registradas y/o material de derecho de autor de sus respectivos
+         propietarios. Se reservan todos los derechos. <a href="#">Más info</a></p>
+      </div><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="px-footer-social">
+            <h5 style="color:#fff;"><strong>Siguenos En: </strong></h5><br>
+            <a href="#">
+              <img src="img/10.png" width="50px">
+            </a>
+            <a href="#"><img src="" width="30px"></a>
+            <a href="#">
+              <img src="img/11.png" width="50px">
+            </a>
+            <a href="#"><img src="" width="30px"></a>
+            <a href="#">
+              <img src="img/12.png" width="50px">
+            </a>
+          </div>
+          <br><br><br>
+          <div class="list-group">
+            <a data-scroll href="#" class="list-group-item list-group-item-action active">Acerda de</a>
+            <a data-scroll href="#" class="list-group-item list-group-item-action active">Contactanos</a>
+          </div>
+       </div>
+       <br>
+       <div class="row">
+         <div class="col-md-6">
+           <div class="list-group">
+            <a data-scroll href="#sec-1" class="list-group-item list-group-item-action list-group-item-success">Introducción</a>
+            <a data-scroll href="#sec-2" class="list-group-item list-group-item-action list-group-item-success">XBOX ONE</a>
+            <a data-scroll href="#sec-3" class="list-group-item list-group-item-action list-group-item-success">PS4</a>
+            <a data-scroll href="#sec-4" class="list-group-item list-group-item-action list-group-item-success">Nuevos Lanzamientos</a>
+            <a data-scroll href="#sec-5" class="list-group-item list-group-item-action list-group-item-success">Galeria</a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
